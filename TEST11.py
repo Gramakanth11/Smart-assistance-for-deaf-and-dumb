@@ -13,8 +13,8 @@ from cvzone.ClassificationModule import Classifier
 cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 detector = HandDetector(maxHands=1)
 classifier = Classifier(
-    "C:/Users/grama/OneDrive/Desktop/Sign-Language-detection-main/converted_keras10/keras_model10.h5",
-    "C:/Users/grama/OneDrive/Desktop/Sign-Language-detection-main/converted_keras10/labels10.txt")
+    "C:/Users/OneDrive/Desktop/Sign-Language-detection-main/converted_keras10/keras_model10.h5",
+    "C:/Users/OneDrive/Desktop/Sign-Language-detection-main/converted_keras10/labels10.txt")
 
 offset = 20
 imgSize = 300
