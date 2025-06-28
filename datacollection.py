@@ -11,7 +11,7 @@ offset = 20
 imgSize = 300
 counter = 0
 
-folder = "C:\\Users\\grama\\OneDrive\\Desktop\\Sign-Language-detection-main\\data\\YES"
+folder = "C:\\Users\\Desktop\\Sign-Language-detection-main\\data\\YES"
 
 # Create the folder if it doesn't exist
 if not os.path.exists(folder):
