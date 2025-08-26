@@ -17,7 +17,7 @@ This project is designed to **bridge the communication gap** for people with hea
 * The system captures **hand gestures** through a webcam or image dataset.
 * Each gesture corresponds to a specific **alphabet, word, or command** from sign language.
 
-  <img width="1243" height="448" alt="Screenshot 2025-04-12 115442" src="https://github.com/user-attachments/assets/4a9415b0-e180-48ef-9957-27c5b992af89" />
+  <img width="650" height="448" alt="Screenshot 2025-04-12 115442" src="https://github.com/user-attachments/assets/4a9415b0-e180-48ef-9957-27c5b992af89" />
 
 
 
@@ -39,7 +39,7 @@ Accuracy graphs (training/validation).
 
 Real-time preview of gesture classification.
 
-<img width="1790" height="1248" alt="Screenshot 2025-04-13 170039" src="https://github.com/user-attachments/assets/ce44d5fb-ca4f-487f-8d4e-d4d510e7ac05" />
+<img width="650" height="650" alt="Screenshot 2025-04-13 170039" src="https://github.com/user-attachments/assets/ce44d5fb-ca4f-487f-8d4e-d4d510e7ac05" />
 
 ### 4. Export Model
 
