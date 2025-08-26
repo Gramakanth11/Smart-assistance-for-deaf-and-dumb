@@ -6,6 +6,9 @@ Here’s a structured write-up you can use:
 
 This project is designed to **bridge the communication gap** for people with hearing and speech impairments. It uses **Computer Vision, Deep Learning (CNN)**, and **Speech Synthesis** to recognize hand gestures (sign language) and convert them into **text or speech** for easy interaction.
 
+### Sign Language gesture for alphabets
+<img width="412" height="323" alt="image" src="https://github.com/user-attachments/assets/9eb7d6ef-1261-4331-8d77-5aa59d263de1" />
+
 
 ## ⚙️ How the Project Works
 
@@ -13,6 +16,9 @@ This project is designed to **bridge the communication gap** for people with hea
 
 * The system captures **hand gestures** through a webcam or image dataset.
 * Each gesture corresponds to a specific **alphabet, word, or command** from sign language.
+
+  <img width="1243" height="448" alt="Screenshot 2025-04-12 115442" src="https://github.com/user-attachments/assets/4a9415b0-e180-48ef-9957-27c5b992af89" />
+
 
 
 ### 2. **Preprocessing**
@@ -33,13 +39,15 @@ Accuracy graphs (training/validation).
 
 Real-time preview of gesture classification.
 
+<img width="1790" height="1248" alt="Screenshot 2025-04-13 170039" src="https://github.com/user-attachments/assets/ce44d5fb-ca4f-487f-8d4e-d4d510e7ac05" />
+
 ### 4. Export Model
 
 You exported the trained model as:
 
 Keras (.h5) → usable in Python.
 
-TensorFlow.js → usable in web apps.
+TensorFlow.js → usable in web apps.(optional)
 
 ### 4. **Convolutional Neural Network (CNN) Model**
 
@@ -72,6 +80,8 @@ The **CNN** acts as the core recognition engine.
 * **Through Speaker** → The system produces clear audio output.
 
 This makes real-time communication smooth and effective.
+
+<img width="608" height="281" alt="Screenshot 2025-05-28 194444" src="https://github.com/user-attachments/assets/4ef57bed-2284-4a92-8327-07afa77fdf89" />
 
 
 ## 📊 Features
