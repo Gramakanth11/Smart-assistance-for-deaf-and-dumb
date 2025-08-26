@@ -21,8 +21,27 @@ This project is designed to **bridge the communication gap** for people with hea
 * Background noise is reduced using techniques like **thresholding or background subtraction**.
 * This ensures that the CNN only focuses on the **hand region**.
 
+### 3. Model Training (Teachable Machine)
 
-### 3. **Convolutional Neural Network (CNN) Model**
+Teachable Machine automatically builds a CNN model (with Conv2D, MaxPooling, Dense layers).
+
+It trains online, and you can tweak epochs, learning rate, batch size.
+
+After training, it shows:
+
+Accuracy graphs (training/validation).
+
+Real-time preview of gesture classification.
+
+### 4. Export Model
+
+You exported the trained model as:
+
+Keras (.h5) → usable in Python.
+
+TensorFlow.js → usable in web apps.
+
+### 4. **Convolutional Neural Network (CNN) Model**
 
 The **CNN** acts as the core recognition engine.
 
@@ -35,19 +54,19 @@ The **CNN** acts as the core recognition engine.
 5. **Output Layer (Softmax)** → Classifies the input gesture into a predefined class (e.g., “A”, “B”, “Hello”).
 
 
-### 4. **Gesture-to-Text Conversion**
+### 5. **Gesture-to-Text Conversion**
 
 * The predicted gesture class is mapped to a **text output** (example: Gesture → “Hello”).
 * This text is displayed on the interface.
 
 
-### 5. **Text-to-Speech Conversion (Optional)**
+### 6. **Text-to-Speech Conversion (Optional)**
 
 * The recognized text is converted into **audible speech** using a **Text-to-Speech (TTS) engine**.
 * This allows people with speech disabilities to “speak” through their gestures.
 
 
-### 6. **Output for End User**
+### 7. **Output for End User**
 
 * **On Screen** → Text message appears.
 * **Through Speaker** → The system produces clear audio output.
