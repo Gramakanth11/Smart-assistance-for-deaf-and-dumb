@@ -91,8 +91,12 @@ print("✅ All libraries installed correctly!")
 
 If no error → you’re good to go 🎉
 
-## Step 2: 🖥️ Smart Assistant for Deaf & Dumb – Software Pipeline
-1️⃣ Data Collection
+
+## ⚙️ How the Project Works
+
+### 1. **Input Acquisition**
+
+## Data Collection
 Options:
 
 Google Teachable Machine (quick dataset creation → exports .h5 Keras model).
@@ -111,47 +115,6 @@ dataset/
  ├── C/
  ...
  └── Z/
-
-2️⃣ Data Preprocessing
-
-Resize all images to 64×64 or 128×128.
-
-Normalize pixel values (/255.0).
-
-Split into train/validation sets.
-
-3️⃣ train and test your gesture model in **Google Teachable Machine**, 
-your workflow is a bit simpler because TM exports ready-to-use models
-
-Then,Export the Model
-In Teachable Machine, after training → click Export Model.
-Choose Tensorflow → Keras (.h5).
-Download the .zip file → extract → you’ll get a file like:
-
-keras_model.h5
-labels.txt
-
-4️⃣ Testing the Model
-End-to-End Flow (with Teachable Machine Model)
-
-Collect gestures in Teachable Machine.
-
-Train & Export → keras_model.h5 + labels.txt.
-
-Load in Python (OpenCV + TensorFlow).
-
-Show live webcam prediction.
-
-Form sentences from predicted letters.
-
-Use pyttsx3 to speak the final sentence.
-
-(Optional) Add SpeechRecognition for voice → text support.
-
-
-## ⚙️ How the Project Works
-
-### 1. **Input Acquisition**
 
 * The system captures **hand gestures** through a webcam or image dataset.
 * Each gesture corresponds to a specific **alphabet, word, or command** from sign language.
@@ -179,10 +142,12 @@ Real-time preview of gesture classification.
 <img width="650" height="650" alt="Screenshot 2025-04-13 170039" src="https://github.com/user-attachments/assets/ce44d5fb-ca4f-487f-8d4e-d4d510e7ac05" />
 
 ### 4. Export Model
-
-You exported the trained model as:
-
-Keras (.h5) → usable in Python.
+Then,Export the Model
+In Teachable Machine, after training → click Export Model.
+Choose Tensorflow → Keras (.h5).
+Download the .zip file → extract → you’ll get a file like:
+keras_model.h5
+labels.txt
 
 TensorFlow.js → usable in web apps.(optional)
 
@@ -220,6 +185,22 @@ This makes real-time communication smooth and effective.
 
 <img width="608" height="281" alt="Screenshot 2025-05-28 194444" src="https://github.com/user-attachments/assets/4ef57bed-2284-4a92-8327-07afa77fdf89" />
 
+
+## End-to-End Flow (with Teachable Machine Model)
+
+Collect gestures in Teachable Machine.
+
+Train & Export → keras_model.h5 + labels.txt.
+
+Load in Python (OpenCV + TensorFlow).
+
+Show live webcam prediction.
+
+Form sentences from predicted letters.
+
+Use pyttsx3 to speak the final sentence.
+
+(Optional) Add SpeechRecognition for voice → text support.
 
 ## 📊 Features
 
