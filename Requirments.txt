@@ -1,0 +1,23 @@
+Here is commands that will install everything you might need
+
+ pip install opencv-python cvzone
+mediapipe numpy tensorflow
+ pip install tensorflow==2.15.0
+ pip install keras==2.10
+ pip install jax==0.4.4 jaxlib==0.4.4
+ pyttsx3 – For Text-to-Speech
+(TTS) functionality.
+ pip install pyttsx3
+
+
+Explanation of what this installs:
+ opencv-python → for cv2 (camera,
+image processing)
+ cvzone → for HandTrackingModule,
+ClassificationModule
+ mediapipe → HandDetector internally
+uses MediaPipe
+ numpy → array handling (used
+everywhere)
+ tensorflow → for loading and running
+your .h5 model
